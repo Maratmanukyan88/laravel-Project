@@ -1,0 +1,50 @@
+/*
+ |--------------------------------------------------------------------------
+ | Register
+ |--------------------------------------------------------------------------
+ */
+
+#register {
+	.col-left {
+		padding-top: 130px;
+
+		h1 {
+			font-size: 60px;
+			font-weight: 300;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+
+		p {
+			color: #5f5f5f;
+			font-size: 16px;
+		}
+	}
+
+	.col-right {
+		padding-top: 40px; 
+		background: #fff;
+		overflow: hidden;
+
+		h2 {
+			font-size: 24px;
+			font-weight: 300;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+	}
+
+
+	@media screen and (max-width: $screen-md) {
+
+		.col-left {
+			padding-top: 0;
+		}
+
+		.col-right {
+			margin-top: 20px;
+			padding-top: 0;
+		}
+
+	}
+}

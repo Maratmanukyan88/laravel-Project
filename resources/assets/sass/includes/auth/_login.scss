@@ -1,0 +1,41 @@
+/*
+ |--------------------------------------------------------------------------
+ | Login
+ |--------------------------------------------------------------------------
+ */
+
+#login {
+
+	h1 {
+		font-weight: 300;
+		text-transform: uppercase;
+		margin-bottom: 24px;
+		margin-top: 80px;
+		text-align: center;
+	}
+
+	.form-login {
+		background: #fff;
+		overflow: hidden;
+		padding: 15px;
+
+		.remember {
+			margin: 8px 0 32px;
+
+			label {
+				font-size: 13px;
+			}
+		}
+	}
+
+	@media screen and (max-width: $screen-md) {
+
+		.controls .col-md-7 {
+			margin-top: 10px;
+		}
+
+	}
+
+}
+
+

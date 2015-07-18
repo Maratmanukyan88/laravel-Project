@@ -1,0 +1,31 @@
+/*
+ |--------------------------------------------------------------------------
+ | Custom
+ |--------------------------------------------------------------------------
+ */
+
+body {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 300;
+}
+
+.container {
+	h3.header-subtitle.text-muted {
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+
+	.content {
+		margin-top: 10px;
+		padding-bottom: 20px;
+		background: #fff;
+		overflow: hidden;
+	}
+}
+
